@@ -1,6 +1,13 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.jumbotron {
+  background-image: url('https://dl.dropbox.com/s/q01u0wk8xc3ewy8/jumbotron.jpg?dl=0');
+  h1, h2 {
+    font-family: guardian-egyptt, georgia, serif;
+  }
+}
 body {
   background-color: #F5F5F1;
   color: #333333;
