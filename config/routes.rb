@@ -1,5 +1,4 @@
-Rails.application.routes.draw do
-  
+Etsydemo::Application.routes.draw do
 
   devise_for :users
   resources :listings do
